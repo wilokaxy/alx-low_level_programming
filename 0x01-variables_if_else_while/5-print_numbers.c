@@ -1,5 +1,6 @@
 #include <stdio.h>
 /*
+ * main - Entry point of the program.
  * main - Prints numbers from 0 to 9.
  *
  * Return: Always 0 (success)
