@@ -9,7 +9,7 @@ int main(void)
 	int i;
 	char alphabet;
 
-	for ( i = 122; i >= 97; i--)
+	for (i = 122; i >= 97; i--)
 	{
 		alphabet = (char) i;
 		putchar(alphabet);
