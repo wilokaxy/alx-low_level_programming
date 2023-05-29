@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * void _puts - prints a string followed by a new line
+ * _puts - prints a string followed by a new line
  * @str: string
- * return: string 
+ * return: string
  */
 void _puts(char *str)
 {
