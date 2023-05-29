@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * swap_int - swaps values of two integers
- * @a - first integer
- * @b - secondd integer
+ * @a: first integer
+ * @b: secondd integer
  * return: 0 Always
  */
 void swap_int(int *a, int *b)
