@@ -37,3 +37,15 @@ void make_valid_password(char* password, int length)
 	}
 	while (!password_valid(password));
 }
+int main()
+{
+	srand(time(NULL));
+
+	int password_length = 10;
+	char generated_password[MAX_PASSWORD_LENGTH + 1];
+
+	generate_valid_password(generated_password, password_length);
+	printf("Genetated password: %s\n", generated_password);
+
+	return (0);
+}
