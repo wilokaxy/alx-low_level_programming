@@ -11,6 +11,10 @@ int main(void)
 	while (i < 10)
 	{
 		putchar('0' + i);
+		if (i < 10)
+		{
+			putchar(',');
+		}
 		i++;
 	}
 	putchar('\t');
