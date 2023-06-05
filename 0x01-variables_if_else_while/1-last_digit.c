@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - assigns a randon number every time upon execution 
+ * main - assigns a randon number every time upon execution
  *
  * Return: Always 0 (Success)
  */
