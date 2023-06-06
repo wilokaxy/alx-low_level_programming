@@ -31,8 +31,7 @@ int main(void)
 		}
 
 		numb1++;
-
-		putchar('\n');
-		return (0);
 	}
+	putchar('\n');
+	result (0);
 }
