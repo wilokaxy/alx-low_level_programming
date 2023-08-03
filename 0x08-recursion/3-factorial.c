@@ -3,6 +3,7 @@
 
 /**
  * int factorial(int n) - returns the factorial of a given number
+ * @factorial of a number n: (n* (n - 1)!)
  * @n: given number in the main function
  * if @n is lower than 0, return -1 and indicate error
  *
