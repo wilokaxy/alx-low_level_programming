@@ -7,6 +7,7 @@
  * @s2: string 2
  *
  * Returns :1 if the strings are identical,  otherwise return 0
+ * Return: 0
  */
 
 int wildcmp(char *s1, char *s2)
