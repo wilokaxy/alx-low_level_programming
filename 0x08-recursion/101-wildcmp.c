@@ -3,11 +3,10 @@
 
 /**
  * wildcmp - compares two strings
- * @s1: string 1 
+ * @s1: string 1
  * @s2: string 2
  *
- * Returns :1 if the strings are identical
- * 	   : otherwise return 0
+ * Returns :1 if the strings are identical,  otherwise return 0
  */
 
 int wildcmp(char *s1, char *s2)
@@ -18,12 +17,12 @@ int wildcmp(char *s1, char *s2)
 		{
 			return (wildcmp(s1, s2 + 1));
 		}
-		return(*s2 == '\0');
+		return (*s2 == '\0');
 	}
 
 	if (*s2 == '*')
 	{
-		return(wildcmp(s1 + 1, s2) || wildcmp(s1, s2 + 1));
+		return (wildcmp(s1 + 1, s2) || wildcmp(s1, s2 + 1));
 	}
 	else if (*s1 == *s2)
 	{
