@@ -7,6 +7,7 @@
  * @age: second member
  * @owner: third member
  *
+ * Description: refer to the README.md
  */
 struct dog
 {
